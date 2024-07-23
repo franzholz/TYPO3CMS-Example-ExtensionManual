@@ -28,13 +28,13 @@ User TSconfig
 ..  confval:: enableSomething
 
     :type: bool
-    :Default: 0
+    :Default: false
 
-    If :php:`true` or :typoscript:`1` then something is enabled...
+    If :typoscript:`true`, something is enabled...
 
     Example::
 
-        tx_myextension.enableSomething = 1
+        tx_myextension.enableSomething = true
 
 
 ..  index::
@@ -49,7 +49,7 @@ Page TSconfig
     :type: int
     :Default: 5
 
-    This value limits something. If it is set to :typoscript:`0` something will
+    This value limits something. If it is set to :typoscript:`0` the thing will
     be unlimited...
 
 
